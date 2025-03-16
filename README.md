@@ -10,7 +10,7 @@ This is my personal portfolio website designed for **Lab Task 12** at FutureTech
 - Hosted using **GitHub Pages**.
 
 ## 🔗 Live Website
-You can view my portfolio here: **[Your GitHub Pages URL]**
+You can view my portfolio here: **[https://syeddabdulrehmann.github.io/MyPortfolioPage/]**
 
 ## 🛠️ Technologies Used
 - **HTML** for structure  
