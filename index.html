@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I am Syed Abdulrehman. I am passionate about web development and love creating beautiful websites.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>This project was completed as part of my ICT Lab. It includes HTML structure, navigation, and styling using CSS. This portfolio showcases my skills, contact details, and experience.</p>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: syedabdulrehman.uajk@email.com</p>
+        <p>Phone: 03478998427</p>
+    </section>
+
+<script src="script.js"></script>
+
+<button onclick="changeBackground()">Change Background Color</button>
+
+<form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+
+</body>
+</html>
